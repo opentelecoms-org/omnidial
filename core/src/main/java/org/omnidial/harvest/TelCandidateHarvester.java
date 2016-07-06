@@ -1,4 +1,4 @@
-package org.lumicall.android.sip;
+package org.omnidial.harvest;
 
 public class TelCandidateHarvester extends DialCandidateHarvester {
 

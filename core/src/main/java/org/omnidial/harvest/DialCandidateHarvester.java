@@ -1,4 +1,4 @@
-package org.lumicall.android.sip;
+package org.omnidial.harvest;
 
 import java.util.Collection;
 import java.util.concurrent.ConcurrentLinkedQueue;

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package org.lumicall.android.sip;
+package org.omnidial.harvest;
 
 import java.io.IOException;
 import java.util.List;

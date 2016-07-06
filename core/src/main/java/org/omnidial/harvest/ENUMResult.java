@@ -3,7 +3,7 @@
  *
  */
 
-package org.lumicall.android.sip;
+package org.omnidial.harvest;
 
 public class ENUMResult {
 	private String protocol;
