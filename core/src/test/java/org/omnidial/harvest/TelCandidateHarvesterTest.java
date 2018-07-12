@@ -27,8 +27,8 @@ public class TelCandidateHarvesterTest implements DialCandidateListener {
 		h.addListener(t);
 		String number = "997180330";
 		h.getCandidatesForNumber(number,"extra");
-		assertEquals(t.dcArray.size(),1);
-		assertEquals(number, t.dcArray.get(0).address);
+		assertEquals(1,t.dcArray.size());
+		assertEquals(t.dcArray.get(0).address,number);
 		
 	}
 	@Test
@@ -38,8 +38,8 @@ public class TelCandidateHarvesterTest implements DialCandidateListener {
 		h1.addListener(t1);
 		String number = "pranav";
 		h1.getCandidatesForNumber(number,"extra");
-		assertEquals(t1.dcArray.size(),1);
-		assertEquals(number, t1.dcArray.get(0).address);
+		assertEquals(1, t1.dcArray.size());
+		assertEquals(t1.dcArray.get(0).address, number);
 		
 	}
 	@Test
@@ -48,10 +48,9 @@ public class TelCandidateHarvesterTest implements DialCandidateListener {
 		TelCandidateHarvester h2 = new TelCandidateHarvester();
 		h2.addListener(t2);
 		String number = "9971pranav";
-		System.out.println("print1 test2:"+number);
 		h2.getCandidatesForNumber(number,"extra");
-		assertEquals(t2.dcArray.size(),1);
-		assertEquals(number, t2.dcArray.get(0).address);
+		assertEquals(1, t2.dcArray.size());
+		assertEquals(t2.dcArray.get(0).address,number);
 		
 	}
 	
