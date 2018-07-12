@@ -48,7 +48,7 @@ public class TelCandidateHarvesterTest implements DialCandidateListener {
 		TelCandidateHarvester h2 = new TelCandidateHarvester();
 		h2.addListener(t2);
 		String number = "9971pranav";
-		System.out.println("print1  test2:"+number);
+		System.out.println("print1 test2:"+number);
 		h2.getCandidatesForNumber(number,"extra");
 		assertEquals(t2.dcArray.size(),1);
 		assertEquals(number, t2.dcArray.get(0).address);
